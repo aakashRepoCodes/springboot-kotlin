@@ -7,7 +7,6 @@ import java.util.*
 data class Book (
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     val isbn: String,
 
     val title: String,
